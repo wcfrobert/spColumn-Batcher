@@ -1,2 +1,0 @@
-# SpColumn Batcher
-
