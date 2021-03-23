@@ -1,10 +1,10 @@
 # SpColumn Batcher
 
-spColumn is a concrete design/analysis software made by STRUCTUREPOINT. It is commonly used for strain compatibility analysis of concrete column/wall sections. However, the creation of individual column/wall sections, especially irregular ones, can be quite onerous.
+spColumn is a concrete design/analysis software made by STRUCTUREPOINT. It is commonly used for strain compatibility analysis of concrete column/wall sections. Despite its versatility, the creation of individual column/wall sections, especially irregular ones, can be quite onerous.
 
-One of the best features of the program is that it allows for users to create model files in ".cti" format; which are plain text files that can be interpreted by spColumn and modified with any text editor. Furthermore, ".cti" files can be executed in batch from the command line, allow for tremendous flexibility in automating different workflows. 
+One of the best features of the program is that it allows for users to create model files in ".cti" format; which are plain text files that can be interpreted by spColumn and modified with any text editor. Furthermore, ".cti" files can be executed in batch from the command line, allowing for tremendous flexibility in automating different workflows. 
 
-With this script, one can generate hundreds of spColumn sections, run these analyses, and export reports within minutes. More information about ".cti" files and batch running analyses:
+With this script, one can generate hundreds of spColumn sections, run analysis, and export results within seconds. More information about ".cti" files and batch running analyses from StructurePoint:
 
 https://structurepoint.org/spColumn-Online-Manual/spColumn/Chapter_4/Executing_a_Run.htm
 
@@ -22,7 +22,7 @@ The steps involved in using spColumn-Batcher is as follows:
 
 ![](9.png)
 
-2. Save the speadsheet and run "spcol-batcher.py"  however you like. I am using Spyder's IPython here. 
+2. Save the input sheet and run "spcol-batcher.py". I am using Spyder's IPython here. 
 
 ![](3.png)
 
@@ -39,8 +39,6 @@ The steps involved in using spColumn-Batcher is as follows:
 ![](8.png)
 
 5. [StructurePoint provides many options for batch running from command line.](https://structurepoint.org/spColumn-Online-Manual/spColumn/Chapter_4/Executing_a_Run.htm) The program is currently set up to output .emf files (which can be easily converted to .png files with (python's PIL.Image package)
-
-![](8.png)
 
 ## Assumptions and Other Info
 
